@@ -28,6 +28,8 @@ Before starting this tutorial, make sure you have:
   - `@langchain/openai`
   - `@langchain/community`
   - `@langchain/textsplitters`
+- install: `pdf-parse`
+- create a folder for your cv files: `public/cv` and put a PDF in there
 
 ## Understanding Semantic Search
 
