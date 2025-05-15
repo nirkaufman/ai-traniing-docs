@@ -179,8 +179,9 @@ export async function POST(req: Request) {
 
 ## Step 5: Building the Frontend Interface
 
-Create a React component for the search interface:
+Create a React component for the search interface
 
+__app/semantic/page.tsx__
 ```typescript
 'use client'
 
@@ -282,6 +283,8 @@ export default function SemanticSearchPage() {
   );
 }
 ```
+
+- navigate to: 'localhost:3000/semantic/' and see the results
 
 ## Step 6: Error Handling
 
