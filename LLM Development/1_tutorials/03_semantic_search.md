@@ -138,6 +138,9 @@ async function initVectorStore(): Promise<MemoryVectorStore> {
 
 Implement the search API endpoint:
 
+- create a folder under `app` named `api`
+- inside create a file named: `route.ts`
+
 ```typescript
 export async function POST(req: Request) {
   try {
